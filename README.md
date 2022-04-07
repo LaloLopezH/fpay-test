@@ -12,7 +12,10 @@ _A continuación se detallan las características funcionales y técnicas del Te
 
 ## Expecificación técnica 🛠️
 
-* El apirest (backend) ha sido desarrollado en Node Js
+* El apirest (backend) ha sido desarrollado en Node Js con Express
+* Se utilizó Swagger para la documentación del APIREST
+* Se utilizó JEST para las pruebas unitarias
+* Se utilizó express-validator para la validación de datos de entrada
 * El backend se encuentran en un contenedor docker
 
 ## Pre-requisitos 📋
@@ -30,7 +33,7 @@ _1. Descargar el proyecto de GitHub_
 
 
 ```
-git clone https://github.com/lalolopez/fpay-test
+git clone https://github.com/LaloLopezH/fpay-test.git
 ```
 
 _2. Luego ingresar al repositorio donde se ha descargado el proyecto, abrirlo en un terminal (cmd) y ejecutar el siguiente comando:_
@@ -67,7 +70,7 @@ docker-compose down --rmi all
 
 ## Versionado 📌
 
-Se uso [GitHub](https://github.com/) para el versionado. Para todas las versiones disponibles (https://github.com/lalolopez/fpay-test).
+Se uso [GitHub](https://github.com/) para el versionado. Para todas las versiones disponibles (https://github.com/LaloLopezH/fpay-test).
 
 ## Autor ✒️
 
