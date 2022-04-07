@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Test para Fpay - NodeJS",
+    "version": "1.0.0",
+    "title": "Test"
+  },
+  "host": "localhost:8000",
+  "basePath": "/api/proceso",
+  "tags": [
+    {
+      "name": "Proceso-calcular",
+      "description": "Obtiene los números primos hasta el anterior al número ingresado"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/proceso": {
+      "post": {
+        "tags": [
+          "proceso"
+        ],
+        "summary": "Generación de números primos",
+        "numero": "Valor número ingresado para delimitar la generación de números primos",
+    "parameters": [
+          {
+            "in": "params",
+            "name": "params",
+            "description": "Número",
+            "type": "Number",
+            "required": true
+          }
+        ],
+        "responses": {
+          "default": {
+            "list": "Lista de números primos"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  }
+}
