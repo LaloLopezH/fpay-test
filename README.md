@@ -45,11 +45,17 @@ _3. Para probar la aplicación, ingresar en postman la siguiente ruta:_
 http://localhost:8000/api/proceso
 ```
 
-**En la pestaña "Params" ingresar:
+**En la pestaña "Params" ingresar:**
 
 ```
 KEY: numero 
 VALUE: 13
+```
+
+**Si desea revisar la documentación puede ingresar a la siguiente ruta:**
+
+```
+http://localhost:8000/api/docs
 ```
 
 _4. Luego de realizar las pruebas ejecutar el siguiente comando en el terminal (cmd):_
